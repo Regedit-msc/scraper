@@ -17,4 +17,5 @@ app.use(
 
 app.use(express.json());
 app.use("/", router);
+// console.log(process.env);
 export { app };
